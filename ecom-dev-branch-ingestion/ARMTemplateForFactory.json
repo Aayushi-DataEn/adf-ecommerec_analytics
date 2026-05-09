@@ -1018,7 +1018,7 @@
 			"dependsOn": []
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/Weekly_6_am')]",
+			"name": "[concat(parameters('factoryName'), '/Weekly_6AM')]",
 			"type": "Microsoft.DataFactory/factories/triggers",
 			"apiVersion": "2018-06-01",
 			"properties": {
@@ -1038,7 +1038,7 @@
 					"recurrence": {
 						"frequency": "Day",
 						"interval": 7,
-						"startTime": "2026-05-09T11:15:00",
+						"startTime": "2026-05-09T11:18:00",
 						"timeZone": "GMT Standard Time",
 						"schedule": {
 							"minutes": [
